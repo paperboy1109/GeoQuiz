@@ -56,6 +56,15 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		4E1F6FC41D2A231800AA2FAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9F408D01D19AF7200FEEA91 /* QuizViewController+Functions.swift */,
+				A9F408CF1D19AF7200FEEA91 /* QuizViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		A9F408B01D19AF3A00FEEA91 = {
 			isa = PBXGroup;
 			children = (
@@ -76,12 +85,11 @@
 			isa = PBXGroup;
 			children = (
 				4E1F6FC31D2A143300AA2FAB /* Model */,
-				A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */,
-				A9F408CF1D19AF7200FEEA91 /* QuizViewController.swift */,
-				A9F408D01D19AF7200FEEA91 /* QuizViewController+Functions.swift */,
+				4E1F6FC41D2A231800AA2FAB /* Controller */,
 				4E1F6FC21D2A140A00AA2FAB /* Assets */,
 				A9FA135A1D1AB99D00B5F46E /* LaunchScreen.xib */,
 				A9F408C81D19AF3A00FEEA91 /* Info.plist */,
+				A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */,
 			);
 			path = GeoQuiz;
 			sourceTree = "<group>";
